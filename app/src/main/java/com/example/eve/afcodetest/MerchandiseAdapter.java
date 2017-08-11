@@ -25,7 +25,6 @@ public class MerchandiseAdapter extends RecyclerView.Adapter<MerchandiseAdapter.
 
     public ArrayList<MerchandiseInfo> merchandiseInfos;
     private Context context;
-    private int focusItem;
 
     public MerchandiseAdapter(ArrayList<MerchandiseInfo> list, Context context) {
         this.merchandiseInfos = list;
